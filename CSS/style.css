@@ -10,7 +10,7 @@
     align-items: center;
 }
 .logo img{
-    width:33%;
+    width:54%;
     border: 3px solid white;
     border-radius: 50px;
 }
@@ -38,11 +38,11 @@
 
 .nav-list li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 .nav-list li a:hover{
-    color: grey;
+    color:grey;
 }
 
 .rightNav{
@@ -101,10 +101,12 @@
 
 .text-big{
     font-size: 38px;
+    color: white;
 }
 
 .text-small{
     font-size: 18px;
+    color: floralwhite;
 }
 
 .btn{
@@ -183,6 +185,411 @@
 html{
     scroll-behavior: smooth;
 }
+.thumbnail img{
+    width: 300px;
+
+}
+
+/*----------------------------------------*/
+/*  21. Footer CSS
+/*----------------------------------------*/
+.footer-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    margin-top: 40px;
+  }
+  
+  .footer-section::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #000000;
+    opacity: 0.85;
+    z-index: -1;
+  }
+  
+  /*-- Footer Widget --*/
+  .footer-widget .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #d8d8d8;
+    white-space: nowrap;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+  
+  .footer-widget .title .text {
+    margin-right: 10px;
+  }
+  
+  .footer-widget .title .shape {
+    height: 5px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+  
+  .footer-widget img {
+    margin-bottom: 18px;
+  }
+  
+  .footer-widget p {
+    color: #d8d8d8;
+    line-height: 23px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .footer-widget p {
+      width: auto;
+    }
+  }
+  
+  .footer-widget ul li {
+    color: #d8d8d8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    line-height: 22px;
+   /* margin-bottom: 12px;*/
+  }
+  
+  .footer-widget ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .footer-widget ul li i {
+   /* margin-right: 15px;*/
+    line-height: 28px;
+    font-size: 18px;
+  }
+  
+  .footer-widget ul li span {
+    overflow: hidden;
+  }
+  
+  .footer-widget ul li a {
+    display: block;
+  }
+  
+  .footer-widget ul li a:hover {
+    color: #152860;
+  }
+  
+  /*-- Footer Social --*/
+  .footer-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px;
+  }
+  
+  .footer-social a {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-right: 15px;
+  }
+  
+  .footer-social a:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-social a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer-social a i {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .footer-social a.facebook {
+    background-color: #4867AA;
+  }
+  
+  .footer-social a.twitter {
+    background-color: #1DA1F2;
+  }
+  
+  .footer-social a.linkedin {
+    background-color: #007BB6;
+  }
+  
+  .footer-social a.google {
+    background-color: #DD5144;
+  }
+  
+  .footer-social a.instagram {
+    background-color: #B23A94;
+  }
+  
+  .footer-social a.pinterest {
+    background-color: #BD081B;
+  }
+  
+  .footer-social a.skype {
+    background-color: #00A9F0;
+  }
+  
+  .footer-social a.tumblr {
+    background-color: #36465D;
+  }
+  
+  /*-- Footer News Letter --*/
+  .footer-newsletter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .footer-newsletter input {
+    width: calc(100% - 40px);
+    max-width: 250px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    color: #ffffff;
+    line-height: 24px;
+    padding: 7px 15px;
+    font-size: 13px;
+  }
+  
+  .footer-newsletter button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #152860;
+    color: #ffffff;
+  }
+  
+  /*-- Footer Bottom --*/
+  .footer-bottom {
+    padding: 7px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  /*-- Copyright --*/
+.copyright p {
+    line-height: 30px;
+    color: #d8d8d8;
+  }
+  
+  .copyright p a:hover {
+    color: #152860;
+  }
+  .ext-ht01{
+      min-height:247px;
+  }
+  .ext-ht02{
+      min-height:271px;
+  }
+  .ext-ht03{ 
+      min-height:279px;
+  }
+  .property-inner{
+      border:1px solid #ccc;
+     margin-bottom:25px;
+  }
+  .footer-top{
+      margin-top:60px;
+  }
+  .header-bottom{
+      height:90px;
+  }
+  .search-section p{
+      text-align:center;
+  }
+  .ext-img {
+      min-height:280px;
+  }
+  .ext-img01{
+      min-height:219px;
+  }
+  .ext-pi{
+      width:200px !important;
+  }
+  .fa-eye:before {
+      font-size:30px;
+  }
+  .fa-bullseye:before {
+      font-size:30px;
+  }
+  .bg-grey{
+      background:#f8f8f8;
+  }
+  .ext-piner{
+      border:none !important;
+  }
+  .ext-grey{
+      height:675px;
+  }
+  .ext-sevices .news{
+      min-height:430px;
+  }
+  .ext-news{
+      margin-bottom:30px;
+  }
+  .e-bg-gray{
+      background-color: #f8f8f8 !important;
+      height: 560px;
+  }
+  .ext-agent .agent{
+      height:170px;
+      text-align:center;
+      }
+  .ext-agent .agent img{
+      max-width:70%;
+      margin-top:33px;
+  }
+  @media only screen and (max-width: 600px) {
+    .ext-sevices .news{
+          min-height:auto;
+      }
+      .ext-news01{
+          margin-bottom:30px;
+      }
+      .ext-slider{
+          height: 175px;
+      }
+      .header-user{
+          display:none;
+      }
+      .mobile-menu .mean-bar .meanmenu-reveal {
+      position: absolute;
+      top: -40px;
+      }
+      .mv-mb{
+          margin-bottom:20px;
+      }
+  }
+  
+  
+  p.p1 {
+      margin-bottom: 0px;
+  }
+  
+  .mb-40 {
+      margin-bottom: 40px !important;
+  }
+  
+  .feature-image {
+      padding-bottom: 30px;
+  }
+  
+  .feature-video {
+      display: flex;
+      justify-content: center;
+  }
+  
+  video {
+      width: 77%;
+      height: auto;
+  }
+
+/*
+Start WhatsApp
+======================================*/
+
+#gb-widget-5495{
+    bottom: 11px;
+    left: 18px;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
+    box-sizing: border-box;
+    direction: ltr;
+    position: fixed !important;
+    z-index: 16000160 !important;
+}
+
+.q8c6tt-2{
+    display: flex;
+    margin-top: 14px;
+    position: relative;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+a.q8c6tt-0.jlzTty{
+    width: 50px;
+    height: 50px;
+    order: 2;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 40%) 2px 2px 6px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    z-index: 200;
+    display: block;
+    border: 0px;
+    background: rgb(77, 194, 71) !important;
+}
+
+a.sc-7dvmpp-1.dfBDQI{
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: -1.6em;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    width: 60px;
+    right: -0.4em;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 11px;
+    line-height: 11px;
+    border: 0px;
+    max-width: inherit;
+    color: rgb(175, 175, 175) !important;
+}
+
+html .scroll-to-top {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #404040;
+    border-radius: 7px 7px 0 0;
+    bottom: 0px;
+    color: #FFF;
+    display: block;
+    height: 9px;
+    opacity: 0;
+    padding: 13px 10px 35px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 49px;
+    z-index: 1040;
+}
+
+/* whatsapp section end */
+
 @media only screen and (max-width:1140px){
     .nav-list{
         flex-direction: column;
